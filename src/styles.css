@@ -68,15 +68,14 @@ body {
 
 .border {
     height: -webkit-fill-available;
-    border: 2px double #fff;
-    padding: 8px;
+    border: 1px solid #fff;
+    outline: 1px solid #fff;
+    outline-offset: 8px;
 }
 
-.container {
-    margin: 0 20px;
+.center-pad {
     text-align: center;
     padding: 20px;
-    height: -webkit-fill-available;
 }
 
 .xs {
