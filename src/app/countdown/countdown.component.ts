@@ -5,7 +5,7 @@ import { Observable, interval, map } from 'rxjs';
   selector: 'app-countdown',
   styleUrls: ['./countdown.component.css'],
   template: `
-    <div class="md bold">{{ $counter | async }}</div>
+    <div class="lg bold">{{ $counter | async }}</div>
   `
 })
 export class CountdownComponent implements OnInit {
