@@ -18,11 +18,6 @@
     src: url('https://d1tntvpcrzvon2.cloudfront.net/static-assets/fonts/Cardo-Bold.ttf');
 }
 
-html,
-body {
-    height: 100%;
-}
-
 body {
     background-color: #000;
     color: #fff;
@@ -66,8 +61,8 @@ body {
     justify-content: start;
 }
 
+
 .border {
-    height: -webkit-fill-available;
     border: 1px solid #fff;
     outline: 1px solid #fff;
     outline-offset: 8px;
