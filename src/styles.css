@@ -25,6 +25,10 @@ body {
     margin: 0;
 }
 
+.emoji {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .bold {
     font-weight: bold;
 }
